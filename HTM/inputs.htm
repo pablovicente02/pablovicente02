@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIPOS DE INPUT</title>
+</head>
+<body>
+    <form>
+        <label></label>
+        <input type="date">
+        <!-- 
+            ESTE CAMPO NO FUNCIONA EN FIREFOX. 
+         -->
+        <input type="datetime-local">
+        <!-- 
+            SOLUCIÓN, AGREGAR DOS INPUT, UNO TIPO DATE, FECHA Y OTRO TIPO TIME, HORA.
+         -->
+        <input type="date">
+        <input type="time">
+        <input type="week">
+        <input type="month">
+    </form>
+    <hr>
+    <!-- INPUTS PARA MOVILES -->
+    <form>
+        <div>
+        <label>Search
+            <input type="search">
+        </label>
+        </div>
+        <div>
+        <label>Teléfono
+            <input type="tel">
+        </label>
+        </div>
+       <div>
+        <label>Email
+            <input type="email">
+        </label>
+        </div>
+        <div>
+        <label>Password
+            <input type="password">
+        </div>
+        </label>
+        <div>
+        <label>URL
+            <input type="url">
+        </label>
+    </div>
+    <div>
+        <!-- TIPO DE COLOR -->
+        <input type="color">
+        <!-- INPUT SOLO PARA NÚMEROS. -->
+        <input type="number">
+        <!-- Input range, barra para seleccionar un rango -->
+        <input type="range" step="5" min="0" max="20">
+        <!-- input tipo reset, sirve para resetear el formulario. -->
+        <input type="reset">
+        <!-- Input de tipo texto -->
+        <input type="text">
+        <!-- type=hidden, no muestra nada, pero desde JS podemos hacer que el campo este oculto pero que derrepente aparezca -->
+        <input type="hidden">
+
+    </div>
+    <div>
+        <!-- INPUT TIPO RADIO, COMO CONFIGURARLOS Y VER COMO EVITAR LA MULTIPLE SELECCIÓN -->
+        <h1>Elementos seleccionables</h1>
+        <h2>Género</h2>
+        <label> masculino
+            <input type="radio" name="gender" value="masculino">
+        </label>
+        <label> femenino
+            <input type="radio" name="gender" value="femenino">
+        </label>
+        <label> otros
+            <input type="radio" name="gender" value="otros">
+        </label>
+    </div>
+    <div>
+        <h1>Lenguajes que estas aprendiendo</h1>
+        <label>HTML
+            <input type="checkbox" name="languages" value="HTML" >
+        </label>
+        <label>
+            <input type="checkbox" name="languages" value="CSS">
+            CSS
+        </label>
+        <label>JS
+            <input type="checkbox" name="languages" value="JS">
+        </label>
+    </div>
+    <div>
+    <h1>Elementos seleccionables</h1>
+    <form>
+      <select name="lenguajes" multiple>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+      </select> 
+      </form>
+    </div>
+    <div>
+    <form>
+        <select name="Pets">
+        <optgroup label="4 patas">
+        <option value="dog">dog</option> 
+        <option value="cat">cat</option> 
+        <option value="cow">cow</option>
+        <optgroup label="birds">
+            <option value="eagle">eagle</option>
+            <option value="parrot">parrot</option>
+            <option value="stork">stork</option>
+            <option value="dove">dove</option>
+    </select>
+    <select>
+        <optgroup label="birds">
+            <option value="eagle">eagle</option>
+            <option value="parrot">parrot</option>
+            <option value="stork">stork</option>
+            <option value="dove">dove</option>
+        </optgroup>
+    </select>
+    </optgroup>
+    </form>
+
+</div> 
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces HTML</title>
+</head>
+<body>
+    <!-- 
+        ENLACES: Conocidos también por links popularmente. Su objetivo es conectar una página web con otra página web, con un recurso tanto interno como externo, o con otro sitio web.
+
+        Tienen el atributo obligatorio href, donde le especificamos la ruta del recurso o sitio que queremos obtener.
+
+        También tiene el atributo target, que configura cómo queremos visualizar el recurso o sitio que solicitamos.
+     -->
+    <h1>LINKS</h1>
+    <!-- 
+        los elementos que corresponden al grupo de elementos de línea.
+     -->
+     <!-- Ruta relativa , busca y hace referencia dentro de nuestro entorno.
+    -->
+     <a href="index.htm">INDEX</a>
+<!-- 
+    Ruta absoluta, tenemos que salir de nuestro entorno para buscar la dirección correspondiente.
+    "_blank"
+    Por defecto viene en _self.
+    download: Atributo booleano, es decir valor verdadero o falso.
+    Sirve para descargar el recurso solicitado. 
+    NOTA: EL RECURSO DEBE ESTAR EN TU MISMO SERVIDOR.RUTA RELATIVA
+ -->
+     <a href="https://www.google.com" target="_blank">Ir a Google</a>
+     <a href="assets/images/AURORA BOREAL.jpg" target="_blank" download>Descargar imagen aurora boreal</a>
+</body>
+</html>

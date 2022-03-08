@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de lista</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Lista ordenada(navegación)</h1>
+            <!-- 
+                SINTAXIS CORRECTA DE NAVEGACIÓN
+             -->
+            <ul type="square">
+               <li>Inicio</li> 
+               <li>Contacto</li>
+               <li>Sección 1</li>
+               <li>Sección 2</li>
+               <li>Sección 3</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h1>Lista desordenada</h1>
+                <!-- 
+                    INDICAMOS AL NAVEGADOR QUE DA IGUAL EL ORDEN DE LA LISTA.
+                    TODAS LAS LISTAS DEBEN DE IR CON EL ELEMENTO <li></li>
+                 -->
+                    <ul type="circle">
+                        <li>Pan</li>
+                        <li>huevos</li>
+                        <li>arroz</li>
+                        <li>atún</li>
+                    </ul>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h1>DESARROLLO WEB</h1>
+                <ol type="i" start="4">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ol>  
+            </article>
+        </section>
+        <section>
+            <article>
+                <!-- 
+                    dl-> Se utilizan para hacer una lista de deficiniones.
+                    (Diccionario).
+
+                    dt- Definition term, el termino que vamos a definir.
+                    dd - Definition description, la descripción del término.
+                 -->
+                <h1>LENGUAJES PARA EL DESARROLLO WEB</h1>
+                <dl>
+                     <dt>HTML</dt>
+                     <dd>Hyper Text Markup Lenguage: Es un lenguaje que sirve para estructurar una página web</dd>
+                     <dt>CSS</dt>
+                     <dd>Cascade Style Sheet, Es un lenguaje de diseño , que se utiliza para dar estilos al html</dd>
+                     <dt>JS</dt>
+                     <dd>Es un lenguaje de progrmación que nos permite interactuar con la web.</dd>
+
+                </dl>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Aprendiendo HTML en 2022
+    </footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+https://www.favicon-generator.org/ -> Para adaptar nuestra imagen en formato favicon de web.
+
+https://fontawesome.com/icons -> Pack de iconos gratuitos para poder realizar proyectos.
+
+Documentar todos los plugins instalados en visual studio del curso.
+
+Revisar estructura HTML de nuestra web -> https://validator.w3.org/
+
+https://ogp.me/  -> Protocolo de fb , para que a la hora de enviar enlaces, se muestre un menú previsualizando una imagen, una descripcion y la información de la URL.
+
+https://ascii.cl/es/codigos-html.htm -> Tabla ASCII para agregar elementos de código en HTML.

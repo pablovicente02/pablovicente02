@@ -1,0 +1,21 @@
+div{
+    text-align:center;
+    width: 300px;
+}
+ol {
+    list-style:none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.first-day{
+    grid-column-start: 5;
+
+}
+.day-name{
+    background: rgba(0,0,255,0.3);
+    padding:0px;
+    text-align:center;
+}
+li{
+    text-align:right;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+
+<!-- ESTRUCTURA BASICA DE UN FORMULARIO
+        
+        form-> es la etiqueta que engloba nuestro formulario.
+        label-> Sirve para escribir el nombre del campo a rellenar.
+        input -> sirve para crear un campo que permitirá al usuario interactuar.
+        button -> Crea un botón que permitirá enviar el formulario.
+
+    -->
+
+</head>
+<body>
+    <!-- 
+        El comportamiento de un formulario automaticamente es enviarla.
+        Con JS se puede modificar.
+     -->
+    <form>
+        <label>Nombre</label>
+        <input>
+        <button>Enviar formulario</button>
+    </form>
+
+    <!-- 
+        COMO UNIR UN LABEL A UN INPUT.
+     -->
+        <form>
+            <label id="name">Introduzca su nombre: </label>
+            <input id="name">
+            <button>Enviar formulario</button>
+        </form>
+
+            <!-- no sirve para enviar el formulario -->
+        <!-- 
+            atributo button="", no envia información. Visualmente son iguales, pero no envian información.
+            elemento button, tiene forma de boton, pero en la practica envia la información.
+         -->
+         <!-- Para enviar el formulario, type="submit" -->
+         <form>
+            <label id="name">Introduzca su nombre: </label>
+            <input type="submit" value="Enviar">
+            
+        </form>
+        
+</html>
